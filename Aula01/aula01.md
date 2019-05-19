@@ -103,7 +103,7 @@ mkdir referencia/hg19
 pwd
 ```
 
-##Copiar os FASTQ para sua pasta de análise;
+## Copiar os FASTQ para sua pasta de análise;
 ```
 cp /bioinfo/dados/NextSeq_RUN01/Files/Data/Intensities/BaseCalls/AMOSTRA01_S1*.fastq.gz dados/fastq/
 ```
