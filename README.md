@@ -5,3 +5,12 @@ Este workshop tem como principal foco apresentar as principais ferramentas de bi
 ## Principais formatos utilizados na Bioinformática
 https://genome.ucsc.edu/FAQ/FAQformat.html
 
+## UCSC table browser
+https://genome.ucsc.edu/cgi-bin/hgTables
+
+## Ferramentas do UCSC para manipulação de dados
+https://genome.ucsc.edu/util.html
+
+## FTP do UCSC para download do genoma de referência
+ftp://hgdownload.soe.ucsc.edu/goldenPath/hg19/chromosomes/
+
