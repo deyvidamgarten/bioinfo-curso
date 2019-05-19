@@ -136,6 +136,35 @@ time fastqc -o dados/fastqc dados/fastq/AMOSTRA01_S1_R1_001_cutadapt.fastq dados
 
 ## Fazer download dos HTMLs gerados com o FastQC e comparar os dois, antes e depois do cutadapt
 
+## Fazer download de um cromossomo para utilizar como referencia
+```
+cd referencia/hg19/
+pwd
+wget ftp://hgdownload.soe.ucsc.edu/goldenPath/hg19/chromosomes/chr13.fa.gz
+gunzip chr13.fa.gz
+```
+
+## Criar o índice do BWA
+​```
+#reference.fa​  = chr13.fa
+bwa index -a bwtsw reference.fa​ 
+```
+
+## Gerar o índice do FASTA (genoma de referência)
+```
+#reference.fa​  = chr13.fa
+samtools faidx reference.fa
+```
+
+## Gerar o dicionário das sequências FASTA
+```
+#reference.fa​  = chr13.fa
+#reference.dict = chr13.dict
+java -jar picard.jar CreateSequenceDictionary \
+REFERENCE=reference.fa \
+OUTPUT=reference.dict
+```
+
 ## Mapear os FASTQ limpos contra o hg19;
 ```
 time bwa mem -M -R '@RG\tID:CAP\tSM:NOME\tLB:Biblioteca\tPL:Plataforma' \
