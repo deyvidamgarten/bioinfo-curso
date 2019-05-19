@@ -170,7 +170,12 @@ OUTPUT=reference.dict
 
 ## Mapear os FASTQ limpos contra o hg19;
 ```
-time bwa mem -M -R '@RG\tID:CAP\tSM:NOME\tLB:Biblioteca\tPL:Plataforma' \
+cd ~/
+NOME=NOME;
+Biblioteca=Biblioteca;
+Plataforma=Plataforma;
+
+time bwa mem -M -R '@RG\tID:CAP\tSM:$NOME\tLB:$Biblioteca\tPL:$Plataforma' \
 /bioinfo/referencia/hg19/chr1_13_17.fa \
 dados/fastq/AMOSTRA01_S1_R1_001_cutadapt.fastq \
 dados/fastq/AMOSTRA01_S1_R2_001_cutadapt.fastq >dados/bwa/AMOSTRA01_S1.sam
