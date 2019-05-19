@@ -90,6 +90,9 @@ mkdir dados/picard
 mkdir dados/fastqc
 mkdir dados/bedtools
 mkdir dados/annovar
+mkdir dados/freebayes
+mkdir dados/gatk
+
 ```
 
 ## Criar a estrutura de diretório para guardar seu genoma de referencia;
