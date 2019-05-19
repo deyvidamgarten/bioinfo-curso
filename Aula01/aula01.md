@@ -176,7 +176,7 @@ NOME=NOME;
 Biblioteca=Biblioteca;
 Plataforma=Plataforma;
 
-time bwa mem -M -R '@RG\tID:CAP\tSM:$NOME\tLB:$Biblioteca\tPL:$Plataforma' \
+time bwa mem -M -R "@RG\tID:CAP\tSM:$NOME\tLB:$Biblioteca\tPL:$Plataforma" \
 /bioinfo/referencia/hg19/chr1_13_17.fa \
 dados/fastq/AMOSTRA01_S1_R1_001_cutadapt.fastq \
 dados/fastq/AMOSTRA01_S1_R2_001_cutadapt.fastq >dados/bwa/AMOSTRA01_S1.sam
@@ -197,10 +197,18 @@ time samtools view dados/bwa/AMOSTRA01_S1_sorted.bam
 
 ## Converter BAM to BED para utilizarmos o BED para analise de cobertura;
 ```
-bamToBed -i dados/bwa/AMOSTRA01_S1_sorted.bam >dados/bwa/AMOSTRA01_S1_sorted.bed
-mergeBed -i dados/bwa/AMOSTRA01_S1_sorted.bed >dados/bwa/AMOSTRA01_S1_merged.bed
-sortBed -i dados/bwa/AMOSTRA01_S1_merged.bed >dados/bwa/AMOSTRA01_S1_merged_sorted.bed
+bamToBed -i dados/bwa/AMOSTRA01_S1_sorted.bam >dados/bedtools/AMOSTRA01_S1_sorted.bed
+mergeBed -i dados/bedtools/AMOSTRA01_S1_sorted.bed >dados/bedtools/AMOSTRA01_S1_merged.bed
+sortBed -i dados/bedtools/AMOSTRA01_S1_merged.bed >dados/bedtools/AMOSTRA01_S1_merged_sorted.bed
 ```
+
+## Gerar a cobertura média para cada target do BED
+```
+coverageBed -a dados/bedtools/AMOSTRA01_S1_merged_sorted.bed \
+-b dados/bwa/AMOSTRA01_S1_sorted.bam -mean \
+>dados/bedtools/AMOSTRA01_S1_coverageBed.bed 
+```
+
 ## Chamada de variantes com o Freebayes;
 
 ```
