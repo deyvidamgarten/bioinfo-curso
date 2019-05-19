@@ -212,7 +212,7 @@ coverageBed -a dados/bedtools/AMOSTRA01_S1_merged_sorted.bed \
 ## Listar as regiões com cobertura média maior que 30x
 ```
 cat dados/bedtools/AMOSTRA01_S1_coverageBed.bed | \
-awk '{if($4>30){print}}' \
+awk -F "\t" '{if($4>30){print}}' \
 > dados/bedtools/AMOSTRA01_S1_coverageBed30x.bed
 ```
 
