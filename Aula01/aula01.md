@@ -146,22 +146,21 @@ gunzip chr13.fa.gz
 
 ## Criar o índice do BWA
 ```
-reference.fa​ = chr13.fa
+# reference.fa​ = chr13.fa
 
 bwa index -a bwtsw reference.fa​ 
 ```
 
 ## Gerar o índice do FASTA (genoma de referência)
 ```
-reference.fa​  = chr13.fa
-
+# reference.fa​  = chr13.fa
 samtools faidx reference.fa
 ```
 
 ## Gerar o dicionário das sequências FASTA
 ```
-reference.fa​  = chr13.fa
-reference.dict = chr13.dict
+# reference.fa​  = chr13.fa
+# reference.dict = chr13.dict
 
 java -jar /bioinfo/app/picard/picard.jar CreateSequenceDictionary \
 REFERENCE=reference.fa \
@@ -170,6 +169,7 @@ OUTPUT=reference.dict
 
 ## Mapear os FASTQ limpos contra o hg19;
 ```
+# Voltar para o HOME
 cd ~/
 NOME=NOME;
 Biblioteca=Biblioteca;
@@ -190,6 +190,7 @@ time samtools index dados/bwa/AMOSTRA01_S1_sorted.bam
 
 ## Visualizar o BAM com o samtools;
 ```
+time samtools view -H dados/bwa/AMOSTRA01_S1_sorted.bam
 time samtools view dados/bwa/AMOSTRA01_S1_sorted.bam
 ```
 
