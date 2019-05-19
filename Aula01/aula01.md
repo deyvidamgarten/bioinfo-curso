@@ -9,7 +9,9 @@ nohup bcl2fastq --no-lane-splitting --barcode-mismatches 1 1>bcl2fastq.log &
 
 ## Verificar se o processo esta em execução e escrevendo o LOG
 ```
-tail -f bcl2fastq.log
+head bcl2fastq.log #lista as primeiras n linhas;
+tail -f bcl2fastq.log #lista as ultimas n linhas;
+
 ```
 
 ## Manual dos comando de linux;
@@ -168,3 +170,5 @@ time /bioinfo/app/freebayes/bin/freebayes -f /bioinfo/referencia/hg19/chr1_13_17
 --pooled-continuous dados/bwa/AMOSTRA01_S1_sorted.bam \
 >dados/freebayes/AMOSTRA01_S1_sorted.vcf
 ```
+
+## Chamada de variantes com o GATK;
