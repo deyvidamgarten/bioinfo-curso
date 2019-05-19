@@ -131,8 +131,10 @@ dados/fastq/AMOSTRA01_S1_R2_001.fastq.gz
 ``` 
 ## Executar o FASTQC para avaliar a qualidade das sequencias produzidas após o cutadapt;
 ```
-time fastqc -o dados/fastqc dados/fastq/AMOSTRA01_S1_R1_001_cutadapt.fastq
+time fastqc -o dados/fastqc dados/fastq/AMOSTRA01_S1_R1_001_cutadapt.fastq dados/fastq/AMOSTRA01_S1_R2_001_cutadapt.fastq
 ```
+
+## Fazer download dos HTMLs gerados com o FastQC e comparar os dois, antes e depois do cutadapt
 
 ## Mapear os FASTQ limpos contra o hg19;
 ```
