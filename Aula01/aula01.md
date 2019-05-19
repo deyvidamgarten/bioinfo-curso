@@ -206,7 +206,14 @@ sortBed -i dados/bedtools/AMOSTRA01_S1_merged.bed >dados/bedtools/AMOSTRA01_S1_m
 ```
 coverageBed -a dados/bedtools/AMOSTRA01_S1_merged_sorted.bed \
 -b dados/bwa/AMOSTRA01_S1_sorted.bam -mean \
->dados/bedtools/AMOSTRA01_S1_coverageBed.bed 
+>dados/bedtools/AMOSTRA01_S1_coverageBed.bed
+```
+
+## Gerar a regiões com cobertura média maior que 30x
+```
+cat dados/bedtools/AMOSTRA01_S1_coverageBed.bed | \
+awk '{if($4>30){print}}' \
+> dados/bedtools/AMOSTRA01_S1_coverageBed30x.bed
 ```
 
 ## Chamada de variantes com o Freebayes;
