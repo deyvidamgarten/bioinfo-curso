@@ -12,7 +12,8 @@ https://genome.ucsc.edu/cgi-bin/hgTables
 https://genome.ucsc.edu/util.html
 
 ## FTP do UCSC para download do genoma de referência
-ftp://hgdownload.soe.ucsc.edu/goldenPath/hg19/chromosomes/
+HG19: ftp://hgdownload.soe.ucsc.edu/goldenPath/hg19/chromosomes/
+HG38: ftp://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/
 
 ### Curso do MIT grátis
 https://ocw.mit.edu/courses/biology/7-91j-foundations-of-computational-and-systems-biology-spring-2014/video-lectures/
