@@ -124,7 +124,7 @@ Exemplo de resultado [BOM](https://www.bioinformatics.babraham.ac.uk/projects/fa
 ## Remover os reads fora do padrão configurado no sequenciamento 75bp e Q20;
 ```
 time cutadapt --minimum-length 75 --maximum-length 75 \
--q 30 --quality-base 33 \
+--nextseq-trim=3'CUTOFF \
 -o dados/fastq/AMOSTRA01_S1_R1_001_cutadapt.fastq \
 -p dados/fastq/AMOSTRA01_S1_R2_001_cutadapt.fastq \
 dados/fastq/AMOSTRA01_S1_R1_001.fastq.gz \
