@@ -138,6 +138,7 @@ time fastqc -o dados/fastqc dados/fastq/AMOSTRA01_S1_R1_001_cutadapt.fastq dados
 
 ## Fazer download de um cromossomo para utilizar como referencia
 ```
+# Mover para o diretório do seu genoma de referência
 cd referencia/hg19/
 pwd
 wget ftp://hgdownload.soe.ucsc.edu/goldenPath/hg19/chromosomes/chr13.fa.gz
