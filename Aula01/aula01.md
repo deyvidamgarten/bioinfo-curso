@@ -1,8 +1,11 @@
 # Dia01
-## Coverter os BCLs para FASTQ;
+## Checar as permissões e coverter os BCLs para FASTQ e verificar se o processo esta em execução;
 ```
+ls -l /bioinfo/dados/NextSeq_RUN01
+chmod -R 775 /bioinfo/dados/NextSeq_RUN01/Files
 cd /bioinfo/dados/NextSeq_RUN01/Files
-bcl2fastq --no-lane-splitting --barcode-mismatches 1 1>bcl2fastq.log &
+nohup bcl2fastq --no-lane-splitting --barcode-mismatches 1 1>bcl2fastq.log &
+tail -f bcl2fastq.log
 ```
 
 ## Manual dos comando de linux;
