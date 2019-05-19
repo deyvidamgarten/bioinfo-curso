@@ -14,6 +14,9 @@ https://genome.ucsc.edu/util.html
 ## FTP do UCSC para download do genoma de referência
 ftp://hgdownload.soe.ucsc.edu/goldenPath/hg19/chromosomes/
 
+### Curso do MIT grátis
+https://ocw.mit.edu/courses/biology/7-91j-foundations-of-computational-and-systems-biology-spring-2014/video-lectures/
+
 #### Vídeos interessantes sobre NGS e Bioinformática
 https://www.youtube.com/watch?v=e2G5zx-OJIw
 https://www.youtube.com/watch?v=fCd6B5HRaZ8
