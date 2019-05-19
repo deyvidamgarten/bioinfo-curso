@@ -1,4 +1,4 @@
-#Dia01
+#Dia02
 #Converter o VCF para o padrão do ANNOVAR de anotação;
 time perl /bioinfo/app/annovar/convert2annovar.pl -format vcf4 dados/freebayes/AMOSTRA01_S1_sorted.vcf > dados/annovar/AMOSTRA01_S1_sorted.ann
 
