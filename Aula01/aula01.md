@@ -45,7 +45,9 @@ pwd
 
 ## Listar o conteúdo diretório atual;
 ```
-ls -la
+ls -l
+touch meuArquivo.txt
+ls -l
 ```
 
 # Movimentar para o seu diretório home;
