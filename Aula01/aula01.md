@@ -20,6 +20,8 @@ tail -f bcl2fastq.log
 man ls
 man cp
 man cat
+#Variável $PWD contém o caminho "onde estou"
+echo $PWD
 ```
 
 ## Listar o diretório atual;
