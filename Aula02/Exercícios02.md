@@ -1,4 +1,4 @@
-# Lista de Exercícios do Dia01
+# Lista de Exercícios do Dia02
 ### Pré-requisitos
 ANNOVAR
 
