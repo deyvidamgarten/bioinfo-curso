@@ -10,8 +10,7 @@ nohup bcl2fastq --no-lane-splitting --barcode-mismatches 1 1>bcl2fastq.log &
 ## Verificar se o processo esta em execução e escrevendo o LOG
 ```
 head bcl2fastq.log #lista as primeiras n linhas;
-tail -f bcl2fastq.log #lista as ultimas n linhas;
-
+tail -f bcl2fastq.log #lista as ultimas n linhas; Para sair digite <Ctrl>+C;
 ```
 
 ## Manual dos comando de linux;
