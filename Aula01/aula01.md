@@ -44,7 +44,6 @@ cd ~/
 # Editor de texto básico de linux;
 ```
 vi arq_texto_exemplo.txt
-```
 
 #<Esc>i  		 = inserir texto antes do cursor, até precionar <Esc> </br>
 #<Esc>dd  		 = deletar a linha inteira; </br>
@@ -52,6 +51,7 @@ vi arq_texto_exemplo.txt
 #<Esc>:wq<Enter> = sair do vi e SALVAR as alterações;</br>
 #<Esc>:q<Enter>	 = sair do vi;</br>
 #<Esc>:q!<Enter> = forçar sair do vi SEM SALVAR;</br>
+```
 
 ## Mostrar o conteúdo de um arquivo;
 ```
@@ -146,15 +146,16 @@ sortBed -i dados/bwa/AMOSTRA01_S1_merged.bed >dados/bwa/AMOSTRA01_S1_merged_sort
 ```
 ## Chamada de variantes com o Freebayes;
 
-# -F --min-alternate-fraction N </br>
-#      Require at least this fraction of observations supporting</br>
-#      an alternate allele within a single individual in the</br>
-#      in order to evaluate the position.  default: 0.05</br>
-# -C --min-alternate-count N</br>
-#      Require at least this count of observations supporting</br>
-#      an alternate allele within a single individual in order</br>
-#      to evaluate the position.  default: 2</br>
 ```
+# -F --min-alternate-fraction N
+#      Require at least this fraction of observations supporting
+#      an alternate allele within a single individual in the
+#      in order to evaluate the position.  default: 0.05
+# -C --min-alternate-count N
+#      Require at least this count of observations supporting
+#      an alternate allele within a single individual in order
+#      to evaluate the position.  default: 2
+
 time /bioinfo/app/freebayes/bin/freebayes -f /bioinfo/referencia/hg19/chr1_13_17.fa \
 -F 0.3 -C 15 \
 --pooled-continuous dados/bwa/AMOSTRA01_S1_sorted.bam \
