@@ -145,8 +145,8 @@ gunzip chr13.fa.gz
 ```
 
 ## Criar o índice do BWA
-​```
- #reference.fa​  = chr13.fa
+```
+reference.fa​ = chr13.fa
 bwa index -a bwtsw reference.fa​ 
 ```
 
