@@ -14,7 +14,7 @@ https://genome.ucsc.edu/util.html
 ## FTP do UCSC para download do genoma de referência
 ftp://hgdownload.soe.ucsc.edu/goldenPath/hg19/chromosomes/
 
-### Vídeos interessantes sobre NGS e Bioinformática
+#### Vídeos interessantes sobre NGS e Bioinformática
 https://www.youtube.com/watch?v=e2G5zx-OJIw
 https://www.youtube.com/watch?v=fCd6B5HRaZ8
 https://www.youtube.com/watch?v=womKfikWlxM
