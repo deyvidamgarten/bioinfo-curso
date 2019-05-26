@@ -6,6 +6,10 @@ Irá abranger as principais etapas envolvidas, desde a avaliação das métricas
 Todos as técnicas utilizadas estão baseadas nas “boas práticas” internacionais para garantia de qualidade, rastreabilidade e reprodutibilidade das análises. 
 Todas as etapas terão um paralelo com o [Varstation](http://varstation.com) e serão acompanhadas por profissionais treinados e qualificados.
 
+## Introdução ao linux
+http://swcarpentry.github.io/shell-novice/
+http://www.ee.surrey.ac.uk/Teaching/Unix/
+
 ## Principais formatos utilizados na Bioinformática
 https://genome.ucsc.edu/FAQ/FAQformat.html
 
