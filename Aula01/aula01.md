@@ -239,7 +239,6 @@ time /bioinfo/app/freebayes/bin/freebayes -f /bioinfo/referencia/hg19/chr1_13_17
 
 ## Chamada de variantes com o GATK;
 ```
-export GATK_LOCAL_JAR=/bioinfo/app/gatk/gatk-4.1.2.0
 time /bioinfo/app/gatk/gatk-4.1.2.0/gatk HaplotypeCaller -R /bioinfo/referencia/hg19/chr1_13_17.fa \
 -I dados/bwa/AMOSTRA01_S1_sorted.bam \
 -O dados/gatk/AMOSTRA01_S1_sorted.vcf
