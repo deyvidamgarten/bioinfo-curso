@@ -7,7 +7,7 @@ Todos as técnicas utilizadas estão baseadas nas “boas práticas” internaci
 Todas as etapas terão um paralelo com o [Varstation](http://varstation.com) e serão acompanhadas por profissionais treinados e qualificados.
 
 ## Introdução ao linux
-http://swcarpentry.github.io/shell-novice/
+http://swcarpentry.github.io/shell-novice/ </br>
 http://www.ee.surrey.ac.uk/Teaching/Unix/
 
 ## Principais formatos utilizados na Bioinformática
