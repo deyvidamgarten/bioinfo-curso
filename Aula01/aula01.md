@@ -11,7 +11,7 @@ Todo o curso será realizado em servidores Linux (ubuntu) na AWS. Estes servidor
 **Chave de acesso e usuários SSH**  
 Os alunos terão acesso ao arquivo pem ou ppk que corresponde à senha de acesso SSH aos servidores. É necessário fazer o download destas chaves e configurar o cliente ssh para acessar os servidores utilizando esta senha. Além das senhas, cada aluno terá um usuário único no intervalo user1 ao user110
 * Arquivo com as chaves SSH em formato [ppk](https://github.com/deyvidamgarten/bioinfo-curso/blob/master/Aula01/cursoBioInfoMurilo.ppk) e [pem](https://github.com/deyvidamgarten/bioinfo-curso/blob/master/Aula01/cursoBioInfoMurilo.pem)
-* Arquivo com os usuários do servidor e respectivo aluno
+* Arquivo com os usuários do servidor e respectivo aluno: [Turma 1](https://github.com/deyvidamgarten/bioinfo-curso/blob/master/Aula01/turma1_usuarios.md) e [Turma 2](https://github.com/deyvidamgarten/bioinfo-curso/blob/master/Aula01/turma2_usuarios.md)
 
 **Procedimento de acesso**
 * Utilizar MOBA
