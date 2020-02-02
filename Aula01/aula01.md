@@ -1,5 +1,12 @@
-# Dia01
+# Curso de Verão em Bioinformática 2020 - Curso Prático
+
+Este curso tem como objetivo explorar de forma prática as diversas etapas de um pipeline padrão para análises de dados NGS em rotina de testes genéticos. Curso desenvolvido pela equipe de bioinformática do Hospital Israelita Albert Einstein:
+* Deyvid Amgarten, Murilo Cervato, Pedro Sebe e Rodrigo Reis
+
+# Dia 1
+
 ## Checar as permissões e coverter os BCLs para FASTQ
+Os dados que saem do sequenciador são arquivos de imagens em formato BCL. Eles precisam passar pelo processo de _basecalling_, ou chamada dde bases. Este procedimento será feito apenas pelo palestrante.
 ```
 ls -l /bioinfo/dados/NextSeq_RUN01
 chmod -R 775 /bioinfo/dados/NextSeq_RUN01/Files
