@@ -5,6 +5,13 @@ Este curso tem como objetivo explorar de forma prática as diversas etapas de um
 
 # Dia 1
 
+## Configurações e acesso aos servidores na nuvem
+Todo o curso será realizado em servidores Linux (ubuntu) na AWS. Estes servidores possuem todas as ferramentas utilizadas no curso já instaladas, assim como as configurações necessárias. É importante lembrar que na maioria dos casos do dia-a-dia de um bioinformata, estas configurações e instalações podem ser necessárias.  
+*Chave de acesso SSH*  
+Os alunos terão acesso ao arquivo pem ou ppk que corresponde à senha de acesso SSH aos servidores. É necessário fazer o download destas chaves e configurar o cliente ssh para acessar os servidores utilizando esta senha. Além das senhas, cada aluno terá um usuário único no intervalo user1 ao user110
+* Arquivo com as chaves SSH em formato ppk e pem
+* Arquivo com os usuários do servidor e respectivo aluno
+
 ## Checar as permissões e coverter os BCLs para FASTQ
 Os dados que saem do sequenciador são arquivos de imagens em formato BCL. Eles precisam passar pelo processo de _basecalling_, ou chamada dde bases. Este procedimento será feito apenas pelo palestrante.
 ```
