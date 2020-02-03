@@ -11,11 +11,11 @@ Todo o curso será realizado em servidores Linux (ubuntu) na AWS. Estes servidor
 **Chave de acesso e usuários SSH**  
 Os alunos terão acesso ao arquivo pem ou ppk que corresponde à chave de acesso SSH aos servidores. É necessário fazer o download destas chaves e configurar o cliente ssh para acessar os servidores utilizando esta chave. Além das senhas, cada aluno terá um usuário único no intervalo user1 ao user110
 * Arquivo com as chaves SSH em formato [ppk](https://github.com/deyvidamgarten/bioinfo-curso/blob/master/Aula01/cursoBioInfoMurilo.ppk) e [pem](https://github.com/deyvidamgarten/bioinfo-curso/blob/master/Aula01/cursoBioInfoMurilo.pem)
-* Arquivo com os usuários do servidor e respectivo aluno: [Turma 1](https://github.com/deyvidamgarten/bioinfo-curso/blob/master/Aula01/turma1_usuarios.md) e [Turma 2](https://github.com/deyvidamgarten/bioinfo-curso/blob/master/Aula01/turma2_usuarios.md)
+* Arquivo com os usuários do servidor e respectivo aluno: [Turma 1](https://github.com/deyvidamgarten/bioinfo-curso/blob/master/Aula01/turma1_usuarios.tsv) e [Turma 2](https://github.com/deyvidamgarten/bioinfo-curso/blob/master/Aula01/turma2_usuarios.tsv)
 
 **Procedimento de acesso**
 * Utilizar MOBA
-* Especificar o endereço de IP: Turma 1 (18.209.14.74) e Turma 2 ( )
+* Especificar o endereço de IP: Turma 1 (verificar quadro) e Turma 2 (verificar quadro)
 * Não especificar usuário no MOBA e especificar o caminho para a chave
 
 ## Checar as permissões e coverter os BCLs para FASTQ
