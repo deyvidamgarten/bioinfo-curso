@@ -70,12 +70,12 @@ touch meuArquivo.txt
 ls -l
 ```
 
-# Movimentar para o seu diretório home;
+## Movimentar para o seu diretório home;
 ```
 cd ~/
 ```
 
-# Editor de texto básico de linux;
+## Editor de texto básico de linux;
 ```
 vi arq_texto_exemplo.txt
 
