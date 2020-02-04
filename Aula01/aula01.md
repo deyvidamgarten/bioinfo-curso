@@ -19,7 +19,7 @@ Os alunos terão acesso ao arquivo pem ou ppk que corresponde à chave de acesso
 * Não especificar usuário no MOBA e especificar o caminho para a chave
 
 ## Checar as permissões e coverter os BCLs para FASTQ
-Os dados que saem do sequenciador são arquivos de imagens em formato BCL. Eles precisam passar pelo processo de _basecalling_, ou chamada de bases. Este procedimento será feito apenas pelo palestrante.
+Os dados que saem do sequenciador são arquivos de imagens em formato BCL. Eles precisam passar pelo processo de _basecalling_, ou chamada de bases. **Este procedimento será feito apenas pelo palestrante**.
 ```
 ls -l /bioinfo/dados/NextSeq_RUN01
 chmod -R 775 /bioinfo/dados/NextSeq_RUN01/Files
