@@ -6,6 +6,11 @@ Irá abranger as principais etapas envolvidas, desde a avaliação das métricas
 Todos as técnicas utilizadas estão baseadas nas “boas práticas” internacionais para garantia de qualidade, rastreabilidade e reprodutibilidade das análises. 
 Todas as etapas terão um paralelo com o [Varstation](http://varstation.com) e serão acompanhadas por profissionais treinados e qualificados.
 
+## Especial Curso de Verão em bioinformática USP 2020
+[Tutorial de linux e comandos](https://mindmajix.com/linux-tutorial)
+
+[Code academy Linha de comando](https://www.codecademy.com/learn/learn-the-command-line)
+
 ## Introdução ao linux
 http://swcarpentry.github.io/shell-novice/ </br>
 http://www.ee.surrey.ac.uk/Teaching/Unix/
