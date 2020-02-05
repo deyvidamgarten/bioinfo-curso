@@ -145,6 +145,7 @@ time fastqc -o dados/fastqc dados/fastq/AMOSTRA01_S1_R1_001.fastq.gz dados/fastq
 Manual do [FastQC](https://dnacore.missouri.edu/PDF/FastQC_Manual.pdf).</br>
 Exemplo de resultado [BOM](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/good_sequence_short_fastqc.html) e [RUIM](https://www.bioinformatics.babraham.ac.uk/projects/fastqc/bad_sequence_fastqc.html).</br>
 
+# Dia 3
 
 ## Remover os reads fora do padrão configurado no sequenciamento 75bp e Q20;
 ```
@@ -206,6 +207,8 @@ time bwa mem -M -R "@RG\tID:CAP\tSM:$NOME\tLB:$Biblioteca\tPL:$Plataforma" \
 dados/fastq/AMOSTRA01_S1_R1_001_cutadapt.fastq \
 dados/fastq/AMOSTRA01_S1_R2_001_cutadapt.fastq >dados/bwa/AMOSTRA01_S1.sam
 ```
+
+# Dia 4
 
 ## Utilizar o samtools: fixmate, sort e index
 ```
