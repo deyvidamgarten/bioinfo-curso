@@ -32,8 +32,11 @@ HG38: ftp://hgdownload.soe.ucsc.edu/goldenPath/hg38/chromosomes/
 https://ocw.mit.edu/courses/biology/7-91j-foundations-of-computational-and-systems-biology-spring-2014/video-lectures/
 
 #### Vídeos interessantes sobre NGS e Bioinformática
+Sanger sequencing
 https://www.youtube.com/watch?v=e2G5zx-OJIw <br/>
+Sequencing by sinthesis (Illumina)
 https://www.youtube.com/watch?v=fCd6B5HRaZ8 <br/>
+Illumina sequencing technology
 https://www.youtube.com/watch?v=womKfikWlxM <br/>
 https://www.youtube.com/watch?v=I9BOF8Hla5s <br/>
 https://www.youtube.com/watch?v=GUb1TZvMWsw <br/>
